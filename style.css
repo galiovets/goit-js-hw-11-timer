@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e8e8e8;
+  font-family: 'Zen Kurenaido', sans-serif;
+  font-size: 40px;
+}
+
+.text {
+  max-width: 1200px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 15px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+
+.field {
+  text-align: center;
+  background-color: rgba(0, 128, 128, 0.61);
+  padding: 25px 10px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.value {
+  display: block;
+  font-size: 50px;
+}
